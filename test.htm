@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table, th, td{
+  border: 1px solid black; /*<!-- determines the thickness of the border lines -->*/
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 15px; /* cushions the table data (td) such that it's not immediately adjacent to the border*/
+}
+
+table#t01 tr:nth-child(odd){
+  background-color: red;
+}
+
+table#t01 tr:nth-child(even){
+  background-color: blue;
+}
+
+table#t01 th{
+  background-color: purple;
+  color = yellow;
+}
+
+td{
+  text-align: center;
+}
+
+p {
+  font-family: sans-serif; /* defines the font of all the paragraph tagged entries */
+}
+</style>
+</head>
+
+
+<body style = "background-color:beige;"> <!--style is a CSS thing-->
+
+<!-- <h1 id = "Jump"> </h1> -->
+<h1 id = "Jump" style = "text-align:center;"> Hello, Tasneem </h1>
+<h2> test smaller header </h2>
+
+<h2> <a href = "www.google.com"> is this a link? </a> <h/2> <!--href link will be within the words 'is this a link', clicking on it will take you to that link-->
+<h2 style = "font-family:arial;"> here's another h2 header before a horizontal lineeeee </h2>
+
+<hr>
+
+<pre>
+  look how many lines i cn generate
+  this is how to break a line
+  using <\pre> and <\/pre>
+  ignoring the backslash, that is
+</pre>
+
+<p> but with <\br> <br> i can break <br> lines <br> individually <br> </pr>
+
+
+<p style = "color:purple;" title = "First attribute"> Purple Paragraph 2 </p> <!--by putting title = bla here, you can mouse over nd the text will appear-->
+
+<p> <a href = "https://www.youtube.com/watch?v=jmCNmxbG37s">  this is the link to the song im listening to  </a> </p>
+
+<p> <img src="htmltest.png" alt="whatisthis" wid = "104" height = "142"> <p/> <!--alt is the 'alternative', it displays that text if mage is unavailable-->
+
+<p> this text "is" sooper <b> bold </b> </p>
+
+<strong> strong lines for strong people </strong>
+
+<p> this text is <i> italicised </i> </p>
+
+<em> really want to emphasise on what im talking about </e,>
+
+<p> want to <mark> highlight </mark> something? </p>
+
+<p> or maybe I should <del> take back what i said </del> </p>
+
+
+<p> Want to feel special with an <ins> underline </ins>? </p>
+
+<p> you cannot physically write out 2<sup> googol </sup>, you'll run out of O<sub>2</sub> </p>
+
+<small> am i really small? </small>
+
+<p> wise man once said: </p>
+<blockquote>
+  look at how cool i am.
+  one day i'll <q>impart<q> some "meaningful" quote
+  but today i'm just trying out the blockquote. what what really happens if this quote passes to the edge of the screen, will it continue in the line below? yes, yes it does!
+</blockquote>
+
+
+<p> point the mouse at <abbr title="World Health Organisation"> WHO </abbr> to find out what it stands for! </p>
+<bdo dir = "rtl"> don't know why this is useful, but hey ho, here's the script for it </bdo>
+<br> </br>
+
+<p> jut testing out some gif to make it interesting </p>
+<img src ="/home/yong/Documents/Web Designing/html/Image/blp.gif" alt = "test gif" style="width:450px;height:253px;"> <!--when copying directory, as always, copy full path -->
+
+<p> let's make a table here </p>
+
+<table style = "width:50%" id = "t01">
+  <tr> <!-- new row tag -->
+    <th> First Name </th> <!-- table header-->
+    <th> Last Name </th>
+    <th> Age </th>
+  </tr> <!-- ends first row -->
+  <tr>
+    <td> Andrew </td> <!-- td is table data, as opposed to the headers -->
+    <td> Yong </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td> Eleanor </td>
+    <td> Baker </td>
+    <td> 20 </td>
+    
+  </tr>
+  <caption> Figure 1 This is an example table </caption>
+</table>
+
+<p> <a href = "#Jump"> Back to Top </a> </p>
+</body>
+</html>
